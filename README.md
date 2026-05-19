@@ -22,10 +22,10 @@ Curso: Capacitação em Desenvolvimento Full Stack | 2026
 
 | Campo | Preenchimento |
 |---|---|
-| **Nome completo** | _(preencha aqui)_ |
+| **Nome completo** | _(Guilherme Cavalcante Oliveira)_ |
 | **Turma** | Vespertino 2026 |
-| **E-mail** | _(preencha aqui)_ |
-| **GitHub** | @_(seu usuário)_ |
+| **E-mail** | _(guicavalcante110@gmail.com)_ |
+| **GitHub** | @_(GuiiDevv)_ |
 
 ---
 

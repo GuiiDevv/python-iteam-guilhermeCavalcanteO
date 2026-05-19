@@ -19,5 +19,20 @@ Código:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+a = [10, 20, 30, 40]
+b = [10, 20, 30, 40]
+c = [10, 20, 30, 40, 99]
+
+
+Explicação: 
+
+Minha variavel 'a' comeca com valores [10, 20, 30]. 
+Quando eu faco b = a, entendi que meu b vai aponta para o a.
+'b.append(40)' modifica a lista do b, adicionando o numero 40 na lista.
+Como 'a' e 'b' apontam para a mesma lista, 'a' também é alterado.
+
+A variavel 'c' esta usando o a.copy(), entao ela incialmente
+comeca com os valores alterados de a, e depois adiciona o numero 99, mas n afeta a e b,
+pq 'c' ta copiando apenas os valores de a.
+
 
