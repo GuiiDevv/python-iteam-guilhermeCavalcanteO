@@ -1,21 +1,40 @@
 Lista 01 — Questão 02: Tipos e Conversão
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Guilherme Cavalcante)
+Data:  (19/06/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
 Para cada linha abaixo, indique: (a) o tipo do resultado e (b) o valor.
 Responda por raciocínio ANTES de executar. Depois confirme no REPL.
 
-  print(type(10 / 2))         # tipo: ?   valor: ?
-  print(type(10 // 2))        # tipo: ?   valor: ?
-  print(int(3.9))             # tipo: ?   valor: ?
-  print(bool([]))             # tipo: ?   valor: ?
-  print(bool("False"))       # tipo: ?   valor: ?
-  print(str(True) == "True") # tipo: ?   valor: ?
+  print(type(10 / 2))         # tipo: int   valor: 5
+  print(type(10 // 2))        # tipo: int   valor: 5
+  print(int(3.9))             # tipo: int   valor: 3
+  print(bool([]))             # tipo: bool   valor: False
+  print(bool("False"))       # tipo: bool   valor: True
+  print(str(True) == "True") # tipo: bool   valor: True
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
 (escreva aqui com suas próprias palavras)
+exp1: 
+  divisao real, entao como resultado da divisao da 5, o type do valor sera int;
+
+exp2:
+   "//" divisao inteira. Faz uma divisao indenpendente do numero ser impar ou par, como o numero e par,
+   o resultado sera '5', mas quando for impar, o resultado sera arredondado para ser um numero 'INT';
+
+exp3:
+    o numero 3.9 e um numero float, mas quando converto pra int, ele arredonda para numero anterior, entao resultado sera '3';
+
+exp4:
+    quando estiver vazio o "[]", o resultado sempre sera False;
+
+exp5:
+    O bool vai conferir se é false o true, mas como o "False" ta passando como string, o resutaldo e "True";
+    
+exp6:
+    o str ta passando o primeiro "true" como string, o "==" vai ver se o resultado é igual o segundo "True",
+    como o segundo ta sendo passado como string, o resultado sera "True";
 

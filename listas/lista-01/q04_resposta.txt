@@ -1,6 +1,6 @@
 Lista 01 — Questão 04: Rastreamento de Loop
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Guilherme Cavalcante)
+Data:  (21/06/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -17,5 +17,23 @@ Qual é o valor final de total? O que o código calcula?
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+total comeca sendo = 0 
 
+for i in range(1,6): = (vai percorrer os numeros de 1 a 5,
+                        o ultimo numero nunca sera incluido.)
+
+
+if i % 2 != 0:   (uma condicao que verifica se o numero e impar ou par,
+                  se o numero for par, o resultado sera 0 e a condicao sera falsa.
+                  Caso o resultado seja diferente de 0, o numero e impar e a condicao sera verdadeira.)
+
+total += i  ( se a condicao for verdadeiro, o valor de i sera adicionado a variavel total)
+
+
+iteracao 1: i = 1, total sera 0 + 1 = 1
+iteracao 2: i = 2, total sera 1 + 0 = 1
+iteracao 3: i = 3, total sera 1 + 3 = 4
+iteracao 4: i = 4, total sera 4 + 0 = 4
+iteracao 5: i = 5, total sera 4 + 5 = 9
+
+valor final de total sera '9'.
