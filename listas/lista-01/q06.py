@@ -1,6 +1,6 @@
 # Lista 01 — Questão 06: Validador de Senha
 # Aluno: (Guilherme Cavalcante)
-# Data:  (21/06/2026)
+# Data:  (21/05/2026)
 
 # ── Enunciado ───────────────────────────────────────────────────────────────
 # Escreva um programa que solicite uma senha em loop até que atenda TODOS:

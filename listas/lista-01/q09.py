@@ -14,3 +14,11 @@
 # Em q09_resposta.txt: explique o que significa EAFP e qual versão é mais Pythônica.
 
 # ── Sua solução abaixo ──────────────────────────────────────────────────────
+
+def dividir(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError:
+        return None
+
+print(dividir(3,3))

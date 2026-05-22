@@ -1,6 +1,6 @@
 # Lista 01 — Questão 03: Ficha de Cadastro
 # Aluno: (Guilherme Cavalcante)
-# Data:  (19/06/2026)
+# Data:  (19/05/2026)
 
 # ── Enunciado ───────────────────────────────────────────────────────────────
 # Solicite: nome completo, CPF (str), ano de nascimento (int), altura (float).

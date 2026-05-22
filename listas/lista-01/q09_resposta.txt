@@ -1,15 +1,15 @@
 Lista 01 — Questão 09: EAFP vs LBYL
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Guilherme Cavalcante)
+Data:  (22/05/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
 Em q09.py: reescreva a função abaixo no estilo EAFP usando try/except.
 
   def dividir(a, b):
-      if b != 0:
+      try:
           return a / b
-      else:
+      except ZeroDivisionError:
           return None
 
 Em q09_resposta.txt: explique o que significa EAFP e qual versão é mais Pythônica.
@@ -17,5 +17,7 @@ Em q09_resposta.txt: explique o que significa EAFP e qual versão é mais Pythô
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+(EAFP significa easier to ask for forgiveness than permission, vai executar o codigo e lidar com as excessoes caso tenha algum problema)
+
+a mais pythonica seria a try/except, é mais simples e facil de ler e entender que a . a lbyl, tem mais linhas dependendo do caso e mais complexidade.
 

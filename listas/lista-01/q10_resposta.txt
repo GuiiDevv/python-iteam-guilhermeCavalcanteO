@@ -1,6 +1,6 @@
 Lista 01 — Questão 10: Análise Crítica de Código
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Guilherme Cavalcante)
+Data:  (22//06/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -19,5 +19,4 @@ Dica: há um problema em: (1) definição da função, (2) como o loop é escrit
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
-
+( )

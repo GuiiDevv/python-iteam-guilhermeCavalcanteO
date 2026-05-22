@@ -1,6 +1,6 @@
 # Lista 01 — Questão 05: Encontre o Bug
 # Aluno: (Guilherme Cavalcante)
-# Data:  (21/06/2026)
+# Data:  (21/05/2026)
 
 # ── Enunciado ───────────────────────────────────────────────────────────────
 # O código abaixo tem um bug lógico — executa sem erros, mas produz resultado errado.
