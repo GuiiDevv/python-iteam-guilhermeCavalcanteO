@@ -17,11 +17,20 @@
 
 # ── Sua solução abaixo ──────────────────────────────────────────────────────
 
+alunos = [                   # criando uma variavel aluno com elementos dentro;
+    {'nome': 'Ana', 'nota': 8.5},
+    {'nome': 'Bruno', 'nota': 6.0},
+    {'nome': 'Carla', 'nota': 7.2}
+]
 
-def processar_alunos(alunos=None):
-     
+def processar_alunos(alunos=None):  # criando uma funcao processar alunos, e quando a funcao nao receber 'alunos', vai evitar de dar erro e printar apenas o [] vazio;
+    if alunos is None:  # verificando se alunos vai ser None
+        alunos = []
     aprovados = []
-    for i in range(len(alunos)):
-        if alunos[i]['nota'] >= 7.0:
-            aprovados.append[alunos[i]['nome']]
-    print(aprovados)
+    for aluno in alunos:  # aqui vou percorer cada aluno em alunos;
+        if aluno['nota'] >= 7.0: # verificar se a nota do aluno e maior ou igual a 7;
+            aprovados.append(aluno['nome']) # aqui estou pegando os nomes dos alunos que foram aprovados depois que passaram pela verficacao;
+    print(aprovados) # aqui eu printo na telas todos os aprovados, no caso nome de cada um;
+
+
+processar_alunos(alunos) # aqui estou chamando a funcao na lista de alunos;

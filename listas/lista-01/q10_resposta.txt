@@ -19,4 +19,8 @@ Dica: há um problema em: (1) definição da função, (2) como o loop é escrit
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-( )
+(1- por padrao alunos nao pode ser passado assim entao fiz alunos=none e dentro da funcao criei a lista vazia para evitar que a lista seja compartilhada entre as chamadas da funcao;)
+
+(2- o loop pode ser escrito de forma mais legivel usando for aluno in alunos;)
+
+(3- a lista pode ser construída usando o metodo append que é mais eficiente do que criar uma nova lista a cada iteração.)
