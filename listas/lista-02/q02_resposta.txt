@@ -14,5 +14,8 @@ Para cada cenário, indique a estrutura mais adequada (list/tuple/dict/set) e ju
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
-
+a) tuplas, pois quando se trata de coordenadas, os valores nao mudam;
+b) sets, os set nao permite atributos duplicados, entao é o melhor pra ver se tem algum cpf repetido;
+c) dicionario, pq ficaria melhor pra trabalhar com chaves e valores;
+d) lista, pq ao longo do semestre vai precisar alterar os elementos dentro da lista;
+e) tuplas com dicionario ? 

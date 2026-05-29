@@ -1,7 +1,7 @@
 # Explicação — Desafio 04 — Tabuada Personalizada
 
-**Aluno:** _(seu nome)_
-**Data:** _(data)_
+**Aluno:** _(Guilherme Cavalcante)_
+**Data:** _(29/05/2026)_
 
 ---
 
@@ -15,10 +15,19 @@ _(Descreva em suas palavras o que cada parte do código faz.)_
 
 > Para esse exercício, por que `for` com `range()` é preferível ao `while`? Em que cenário o `while` seria a escolha certa?
 
-_(Sua resposta aqui — use suas próprias palavras.)_
+_(usei o for/range por conta que que se tratava de uma tabuada, entao sabia quantas repeticoes teria;)_
+ 
+usei while no para ter a possibilidade de usar input do numero_digitado quantas vezes eu quiser com uma condicao para poder ta saindo
+do codigo quando quiser;
+
+resumo: 
+    for/range = quando sei quantas repeticoes vai ser necessaria;
+    while = quando nao sei quantas repeticoes vai ser necessaria;
 
 ---
 
 ## Dificuldades encontradas
 
-_(Opcional: o que foi difícil? O que você pesquisou para resolver?)_
+_(dificuldade simples kk, tava dando erro que nao saia quando digitava '0'
+  pq estava passando o numero com string, sendo que na variavel 'numero_digitado' estava esquecendo que passei input como int, com isso tava dando typeerror;
+)_

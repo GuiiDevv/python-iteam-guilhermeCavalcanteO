@@ -1,7 +1,7 @@
 # Explicação — Desafio 05 — Gerenciador de Compras
 
-**Aluno:** _(seu nome)_
-**Data:** _(data)_
+**Aluno:** _(Guilherme Cavalcante)_
+**Data:** _(29/05/2026)_
 
 ---
 
