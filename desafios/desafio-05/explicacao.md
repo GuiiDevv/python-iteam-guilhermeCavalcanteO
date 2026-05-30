@@ -7,7 +7,7 @@
 
 ## O que meu programa faz
 
-_(Descreva em suas palavras o que cada parte do código faz.)_
+_(primeiro comecei com um loop 'while true: com uma condicao que quando escrevo 'sair' o loop se encerra. Caso eu nao escreva 'sair' no input, o produto é adicionado na lista de produtos, usei append para isso. por fim printa todos os produtos cadastrados.)_
 
 ---
 
@@ -15,10 +15,11 @@ _(Descreva em suas palavras o que cada parte do código faz.)_
 
 > Por que usamos uma **lista** e não uma **tupla** para essa lista de compras? O que mudaria no comportamento do programa se tentássemos usar tupla?
 
-_(Sua resposta aqui — use suas próprias palavras.)_
+_(por que caso use tuplas, nao teria possibilidade de adicionar novos produtos.
+  Já a lista é mutavel, entao da pra adicionar, remover e alterar os elementos caso eu queira.)_
 
 ---
 
 ## Dificuldades encontradas
 
-_(Opcional: o que foi difícil? O que você pesquisou para resolver?)_
+_(Estava querendo exibir os produtos cadastrados como uma string simples, separados por vírgula, e não como a lista padrão do Python com colchetes e aspas)_

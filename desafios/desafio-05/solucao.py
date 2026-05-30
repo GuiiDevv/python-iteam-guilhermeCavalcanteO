@@ -17,5 +17,5 @@ while True:
         print(f'produto adicionados: {nome_produto}')
 
 
-print(f'produtos cadastrados: {produtos}')
+#print(f'produtos cadastrados: {produtos}')
 print(f'produtos cadastrados: {", ".join(produtos)}') # dessa forma passo como string a lista de produtos;
